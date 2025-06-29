@@ -5,3 +5,8 @@ const sidebar = document.getElementById('sidebar');
 menuToggle.addEventListener('click', () => {
   sidebar.classList.toggle('open');
 });
+
+function addbtn(){
+    alert("Thanks for submit: We will contect soon..!!!")
+    location.reload()
+}
